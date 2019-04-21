@@ -20,7 +20,7 @@ class Solution {
             }
             answer = Math.max(answer, max);
         }
-        
+         
         return answer;
     }
 }

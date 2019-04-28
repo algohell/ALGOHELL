@@ -23,6 +23,7 @@ class Solution {
         for (int i = 3; i < nums.length; i++) {
             arr[i] = nums[i] + Math.max(arr[i - 2], arr[i - 3]);
         }
+	
 	// 최대값이 나오는 경우가 2가지이므로 이들 값을 비교
         answer = arr[arr.length - 1] < arr[arr.length - 2] ? arr[arr.length - 2] : arr[arr.length - 1];
 

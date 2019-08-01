@@ -17,7 +17,6 @@ char = ""
 for i in range(len(s)): 
     for j in range(len(s), 0, -1):
         if len(char) >= j-i:
-            rpti
             pass
         elif s[i:j] == s[i:j][::-1]:
             char = s[i:j]

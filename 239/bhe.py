@@ -1,4 +1,4 @@
-yclass Solution(object):
+class Solution(object):
     def maxSlidingWindow(self, nums, k):
         now = []
         if len(nums) != 0:

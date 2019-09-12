@@ -3,7 +3,6 @@ from collections import Counter
 nums=[2,0,2,1,1,0]
 
 # quick sort 이용
-# def quick_sort(nums):
 #     #print(nums)
 #     if len(nums) <= 1:
 #         print(nums)
@@ -23,8 +22,7 @@ nums=[2,0,2,1,1,0]
 #             #print('equal_nums=', equal_nums)
     
 #     print(lesser_nums+equal_nums+greater_nums)
-    
-# quick_sort(nums)
+
 
 count = Counter(nums)
 print(count)

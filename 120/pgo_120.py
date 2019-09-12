@@ -2,7 +2,6 @@
 #triangle = [[2], [3,4], [6,5,7], [4,1,8,3]]
 triangle = [[-1], [2,3], [1,-1,-3]]
 t = triangle
-#print(t)
 tl = len(t)
 dp = t[-1]
 print(dp)

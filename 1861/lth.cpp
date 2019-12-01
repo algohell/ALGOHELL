@@ -39,9 +39,12 @@ int main() {
     for (int i = 0; i < n; ++i) {
       for (int j = 0; j < n; ++j) {
         int v = getMaxMove(n, i, j);
-        if (v >= maxV) {
+        if (v > maxV) {
           maxV = v;
-          maxRoom = min(arr[i][j], maxRoom);
+          maxRoom = arr[i][j];
+        }
+        else if (v == maxV) {
+          maxRoom = min(maxRoom, arr[i][j]);
         }
       }
     }

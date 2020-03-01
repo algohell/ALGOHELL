@@ -1,12 +1,11 @@
-from collections import Counter
+import itertools
 class Solution:
-    def singleNumber(self, nums: List[int]) -> List[int]:
-        n_c = Counter(nums)
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        permutation = itertools.permutations(nums, len(nums))
         
-        res = []
+        ans = []
         
-        for i,v in n_c.items():
-            if v == 1:
-                res.append(i)
+        for p in permutation:
+            ans.append(list(p))
         
-        return res
+        return ans

@@ -13,9 +13,9 @@ class Solution:
                 five -= 1
                 ten += 1
 
-            else:  # 20
+            else:  # 20일때 
                 if not ten:
-                    if five < 3: # 15
+                    if five < 3: # 15일때
                         return False
                     five -= 3
                 if ten:

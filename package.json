@@ -1,0 +1,26 @@
+{
+  "name": "algohell",
+  "version": "1.0.0",
+  "description": "알고리즘 지옥이 있다?!?!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "reminder": "node src/scripts/reminder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algohell/ALGOHELL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/algohell/ALGOHELL/issues"
+  },
+  "homepage": "https://github.com/algohell/ALGOHELL#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

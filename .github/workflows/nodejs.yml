@@ -6,6 +6,7 @@ name: Reminder
 on:
   schedule:
     - cron: "0 10 * * THU"
+    - cron: "0 5 * * SUN" 
 
 jobs:
   build:

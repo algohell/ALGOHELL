@@ -12,4 +12,4 @@ assignees: Godsenal, jg116907, pulum03
 - 문제번호: 링크
 
 ### Easy
-- - 문제번호: 링크
+- 문제번호: 링크

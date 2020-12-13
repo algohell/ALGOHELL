@@ -3,7 +3,7 @@ name: LEET CODE 문제
 about: 문제 나열
 title: 문제 - 월/일
 labels: ''
-assignees: Godsenal, jg116907, pulum03
+assignees: Godsenal, jg116907
 
 ---
 

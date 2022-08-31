@@ -20,7 +20,7 @@
   "homepage": "https://github.com/algohell/ALGOHELL#readme",
   "dependencies": {
     "axios": "^0.19.2",
-    "moment-timezone": "^0.5.31"
+    "moment-timezone": "^0.5.35"
   },
   "devDependencies": {
     "dotenv": "^8.2.0"
